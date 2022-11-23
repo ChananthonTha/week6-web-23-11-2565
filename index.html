@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <title>แบบฟอร์มสัครงาน</title>
+  </head>
+  <body>
+    <div class="container">
+      <center><h1 class="header">แบบฟอร์มสัครงาน</h1></center>
+      <form action="" method="post">
+        <label for="prefix">คำนำหน้า : </label>
+      <select name="prefix" id="prefix" class="input-1" required>
+        <option value="">โปรดเลือก</option>
+        <option value="เด็กชาย">เด็กชาย</option>
+        <option value="เด็กหญิง">เด็กหญิง</option>
+        <option value="นาย">นาย</option>
+        <option value="นาง">นาง</option>
+        <option value="นางสาว">นางสาว</option>
+      </select> 
+      <label for="fname">ชื่อ : </label><input type="text" name="fname" id="fname" class="input-2" required/>
+      <label for="lname">นามสกุล : </label><input type="text" name="lname" id="lname" class="input-2" required/>
+      <br>
+      <label for="id-no">รหัสบัตรปรชาชน : </label><input type="text" name="id-no" id="id-no" class="input-2" required>
+      <br>
+      <label for="gender">เพศ : </label>
+      <input type="radio" name="gender" id="gender" value="ชาย"> ชาย
+      <input type="radio" name="gender" id="gender" value="ชาย"> หญิง
+      <br>
+      <label for="age">อายุ : </label><input type="number" name="age" id="age" min="1" max="99" class="input-2" required>
+      <br>
+      <label for="address">ที่อยู่บ้านเลขที่ : </label><input type="text" name="address" id="address" class="input-2" required>
+      <label for="moo">หมู่ : </label>
+      <select name="moo" id="moo" class="input-1"required>
+        <option value="">โปรดเลือก</option>
+        <option value="หมู่ที่ 1">หมู่ที่ 1</option>
+        <option value="หมู่ที่ 2">หมู่ที่ 2</option>
+        <option value="หมู่ที่ 3">หมู่ที่ 3</option>
+        <option value="หมู่ที่ 4">หมู่ที่ 4</option>
+        <option value="หมู่ที่ 5">หมู่ที่ 5</option>
+        <option value="หมู่ที่ 6">หมู่ที่ 6</option>
+        <option value="หมู่ที่ 7">หมู่ที่ 7</option>
+        <option value="หมู่ที่ 8">หมู่ที่ 8</option>
+        <option value="หมู่ที่ 9">หมู่ที่ 9</option>
+        <option value="หมู่ที่ 10">หมู่ที่ 10</option>
+        <option value="หมู่ที่ 11">หมู่ที่ 11</option>
+        <option value="หมู่ที่ 12">หมู่ที่ 12</option>
+        <option value="หมู่ที่ 13">หมู่ที่ 13</option>
+        <option value="หมู่ที่ 14">หมู่ที่ 14</option>
+        <option value="หมู่ที่ 15">หมู่ที่ 15</option>
+        <option value="หมู่ที่ 16">หมู่ที่ 16</option>
+        <option value="หมู่ที่ 17">หมู่ที่ 17</option>
+        <option value="หมู่ที่ 18">หมู่ที่ 18</option>
+        <option value="หมู่ที่ 19">หมู่ที่ 19</option>
+        <option value="หมู่ที่ 20">หมู่ที่ 20</option>
+      </select>
+      <br>
+      <label for="sub-district">ตำบล : </label><input type="text" name="sub-district" id="sub-distric" class="input-2" required>
+      <label for="district">อำเภอ : </label><input type="text" name="district" id="district" class="input-2" required>
+      <br>
+      <label for="province">จัวหวัด : </label><select name="province" id="province" class="input-1" required>
+        <option value="">โปรดเลือก</option>
+        <option value="ปราจีนบุรี">ปราจีนบุรี</option>
+        <option value="สระแก้ว">สระแก้ว</option>
+        <option value="ฉะเชิงเทรา">ฉะเชิงเทรา</option>
+        <option value="ชลบุรี">ชลบุรี</option>
+        <option value="ระยอง">ระยอง</option>
+        <option value="จันทบุรี">จันทบุรี</option>
+        <option value="ตราด">ตราด </option>
+        <option value="นครนายก">นครนายก</option>
+      </select> 
+      <label for="post">รหัสไปรษณีย์ : </label> <input type="text" name="post" class="input-2" id="post">
+      <br>
+      <label for="tel">เบอร์โทรศัพท์ : </label><input type="tel" name="tel" class="input-2 " id="tel">
+      <br>  
+      <label for="education">การศึกษา : </label>
+      <select name="education" id="education" class="input-1" required>
+        <option value="">โปรดเลือก</option>
+        <option value="ปราจีนบุรี">ประถมศึกษา</option>
+        <option value="สระแก้ว">มัธยมศึกษาตอนต้น</option>
+        <option value="ฉะเชิงเทรา">มัธยมศึกษาตอนปลาย</option>
+        <option value="ชลบุรี">ปวช.</option>
+        <option value="ระยอง">ปวส.</option>
+        <option value="จันทบุรี">ปริญญาตรี</option>
+        <option value="ตราด">ปริญญาโท</option>
+        <option value="นครนายก">ปริญญาเอก</option>
+      </select> 
+      <br>
+    <center>
+       <label for="commend">ความคิดเห็น : </label><br>
+       <textarea name="" id="" cols="30" rows="10" class="input-3"></textarea>  
+       <br>
+       <input type="submit" value="ส่งเลย!!" />
+       <input type="reset" value="ล้าง!!" />
+    </center>
+      </form>
+    </div>
+  </body>
+</html>
